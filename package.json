@@ -1,0 +1,41 @@
+{
+  "name": "simple-portfolio",
+  "homepage": "https://karabassbarabass.github.io/reactSimplePortfolio/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "firebase": "^5.9.2",
+    "firebase-admin": "^7.2.0",
+    "firebase-paginator": "^1.1.2",
+    "re-base": "^4.0.0",
+    "react": "^16.8.4",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^4.4.0",
+    "react-scripts": "2.1.8",
+    "react-scrollspy": "^3.4.0",
+    "reactstrap": "^7.1.0",
+    "use-firestore-pagination": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

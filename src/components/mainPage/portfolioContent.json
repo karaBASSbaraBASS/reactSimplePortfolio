@@ -1,0 +1,103 @@
+{"items": {
+    "item1": {
+        "link": "http://whitesquare.cf",
+        "image": "assets/portfolio/mini-stubs/whiteSquare-min.png",
+        "titleFirst": "white",
+        "titleSecond": "Square",
+        "techList": "Технологии: HTML 5 / CSS / PHP / MySQL",
+        "descrHead": "Белый кубик",
+        "descrText": "Пример верстки блога с последующей его натяжкой на вордпресс.",
+        "status": "available"
+    },
+    "item2": {
+        "link": "http://howaboutgoodinc.cf/",
+        "image": "assets/portfolio/mini-stubs/goodInc-min.png",
+        "titleFirst": "good",
+        "titleSecond": "inc",
+        "techList": "Технологии: HTML 5 / SASS",
+        "descrHead": "Good Inc",
+        "descrText": "Пример верстки главной страницы новостного портала. Чисто верстка + адаптивная верстка.",
+        "status": "available"
+    },
+    "item3": {
+        "link": "http://vek-mebel.com.ua/",
+        "image": "assets/portfolio/mini-stubs/vekMebel-min.png",
+        "titleFirst": "vek",
+        "titleSecond": "mebel",
+        "techList": "Технологии: HTML 5 / CSS / PHP / MySQL / JQuery / cms Joomla / Bootstrap 3",
+        "descrHead": "Век Мебель",
+        "descrText": "Каталог товаров мебельной компании на базе Joomla (aдаптивный дизайн, галерея товаров, карта проезда, чат для контакта с продавцом). Полный цыкл разработки, \"под ключ\".",
+        "status": "available"
+    },
+    "item4": {
+        "link": "/qoteMashine/",
+        "image": "assets/portfolio/mini-stubs/qote-mashine_ml-min.png",
+        "titleFirst": "qote",
+        "titleSecond": "mashine",
+        "techList": "Технологии: HTML 5 / CSS / AJAX / JQuery",
+        "descrHead": "Генератор цитат",
+        "descrText": "Работа является результатом изучения материала по AJAX. Приложение отправляет запрос к API на стороннем ресурсе (ресурс временно не работает), считывает ответ и показывает его пользователю. Цытатой можно поделится в твиттере.",
+        "status": "available"
+    },   
+    "item5": {
+        "link": "/bombRush/",
+        "image": "assets/portfolio/mini-stubs/bomb-rush_tk-min.png",
+        "titleFirst": "bomb",
+        "titleSecond": "rush",
+        "techList": "Технологии: HTML 5 / CSS / JQuery",
+        "descrHead": "Мини игра",
+        "descrText": "Бомбочки появляются в верхней строке и падают вниз. Как только бомбочка коснется нижней границы екрана - отнимется 1 еденица здоровья. Бомбы можно обезвреживать кликая по ним (мышью/пальцем). Суть игры в том чтобы обезвредить наибольшее количество бомб.",
+        "status": "available"
+    },  
+    "item6": {
+        "link": "http://skydiving.com.ua",
+        "image": "assets/portfolio/mini-stubs/skydiving_com_ua-min.png",
+        "titleFirst": "sky",
+        "titleSecond": "diving",
+        "techList": "Технологии: HTML 5/ SASS / Flexbox Smart Grid / JQuery / gulp",
+        "descrHead": "Парашютный клуб",
+        "descrText": "На сайте присутвует лендинг, главная с описаниями услуг, блог с фильтрацией по категориям, календарь с выбором даты прыжка и страница покупки сертификатов. Так-же реализованна интерактивная карта с выбором аеродрома.",
+        "status": "available"
+    },  
+    "item7": {
+        "link": "/cryptofx/",
+        "image": "assets/portfolio/mini-stubs/cryptofx-min.jpg",
+        "titleFirst": "crypto",
+        "titleSecond": "-FX",
+        "techList": "Технологии: HTML 5 / SASS / Bootstrap4 grid / popup / BX slider / JQuery / gulp",
+        "descrHead": "Трейдинговый портал",
+        "descrText": "Адаптивная, кросс-браузерная верстка сайта. Присутсвуют главная с описаниями услуг, новостной блог, формы входа / выхода /смены языка, \"аккордеоны\" с часто задаваемыми вопросами и контактами.",
+        "status": "available"
+    },  
+    "item8": {
+        "link": "https://www.vesnamedia.com/",
+        "image": "assets/portfolio/mini-stubs/vesna-min.jpg",
+        "titleFirst": "vesna",
+        "titleSecond": "media",
+        "techList": "Технологии: HTML 5 / css3 / Bootstrap4 grid / fotorama slider",
+        "descrHead": "Женский журнал",
+        "descrText": "На этом сайте необходимо было добавить раздел галерей и соответсвенно добавить слайдер. Так-же исправление \"поехавших\" форм, шрифтов и кнопок.",
+        "status": "available"
+    },  
+    "item9": {
+        "link": "/harveast/",
+        "image": "assets/portfolio/mini-stubs/harveast-min.png'",
+        "titleFirst": "harv",
+        "titleSecond": "east",
+        "techList": "Технологии: HTML 5 / css3 / smart grid / webpack / JQuery",
+        "descrHead": "Корпоративный сайт",
+        "descrText": "Верстка корпоративного сайта. На сайте присутвует новостной портал, страница с формированием заявок на отделы, опросник, поиск контактов сотрудников, архив документов для скачивания.",
+        "status": "available"
+    }, 
+    "item10": {
+        "link": "https://safesurrogacy.com",
+        "image": "assets/portfolio/mini-stubs/SafeSurrogacy-min.jpg",
+        "titleFirst": "safe",
+        "titleSecond": "surrogacy",
+        "techList": "Технологии: HTML 5 / css3 / bootstrap4 / gulp / JQuery",
+        "descrHead": "Сурогатное материнство",
+        "descrText": "Верстка сайта для компании предлагающей услуги сурогатного материнства. На сайте присутвует форма выбора программ доннорства, страница с выбором \"фоторобота\" и физических данных доннора, блог, аккордеон с ответами на вопросы. И многое другое...",
+        "status": "available"
+    }
+}
+}

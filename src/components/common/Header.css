@@ -1,0 +1,260 @@
+html {
+    font-size: 16px;
+}
+body {
+  overflow-x: hidden;
+  background-color: #f2f2f2;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  -webkit-font-smoothing: antialiased; /* сделает фон более округлым при масштабировании */
+  -webkit-overflow-scrolling: touch; /* позволит скролить тачскрином */
+  margin-top: 70px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  color: #333;
+}
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+.centered {
+  text-align: center;
+}
+a {
+  color: #f85c37 !important;
+}
+a:hover, a:focus {
+    color: #7b7b7b !important;
+    text-decoration: none;
+    outline: #000;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+  
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  
+  height: 100%;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.82);
+  -moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.82);
+  box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.82);
+  margin-bottom: 20px;
+}
+.content {
+  width: 100%;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+.footer {
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: fixed !important;
+  z-index: 999;
+}
+.navbar-inverse {
+  background:#7e1fdd;
+}
+.navbar-inverse .active a {
+    background-color: #00e7bc;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-size: 22px;
+    padding-left: 70px;
+    position: relative;
+
+  }
+  .navbar-inverse .logo-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 40px;
+  }
+
+.navbar-toggler .icon-bar {
+      background-color: #888;
+    }
+
+.navbar-fixed-top {
+/* цепляет хедер к верхней части екрана */
+}
+.container {
+  width:  100%;
+    -webkit-justify-content:  space-around;
+            justify-content:  space-around;
+}
+.navbar-collapse {
+    -webkit-justify-content:  end;
+            justify-content:  end;
+}
+.nav li {
+  margin-left:  10px;
+}
+.nav li a{
+  display: block;
+  padding:  10px;
+  color: #FFF !important;
+  text-decoration: none;
+}
+.nav li a:hover {
+    text-decoration: none; 
+    color: #FFF !important;
+    text-decoration: none;
+  }
+/* рисуем иконку гамбургера из трех горизонтальных линий */
+.hamburger {
+  position: relative;
+  display: block;
+  width: 28px;
+  height: 30px;
+}
+.hamburger1,
+.hamburger2,
+.hamburger3 {
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  width: 28px;
+  background: #ffffff;
+  transition: all 200ms ease-in-out;
+  z-index: 10;
+}
+.hamburger1 {
+  top: calc(50% - 10px);
+}
+  
+.hamburger3 {
+  top: calc(50% + 10px);
+}
+.navbar-inverse .navbar-toggler {
+  border-color: rgba(255, 255, 255, 1);
+}
+/* Добавим анимацию, первую и третью полосу ставим под 45град. среднюю заливаем цветом фона. */
+.convert .hamburger1 {
+  top: 50%;
+  transform: rotate(45deg);
+}
+.convert .hamburger2 {
+  background-color: transparent;
+}
+.convert .hamburger3 {
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
+.navbar-toggler:hover {
+  cursor: pointer;
+}
+.navbar-brand {
+  color: #ffffff !important;
+}
+  .navbar-brand:hover {
+    color: white !important;
+  }
+.arrowDown {
+  margin: 80px 0px 30px 0px;
+  position: reltive;
+}
+
+.arrowDown__border {
+  width: 50px;
+  height: 50px;
+  
+  -moz-transform: rotate(45deg); /* Для Firefox */
+  -ms-transform: rotate(45deg); /* Для IE */
+  -webkit-transform: rotate(45deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(45deg); /* Для Opera */
+  transform: rotate(45deg);
+  margin: 0 auto;
+
+}
+
+  .arrowDown__arrow1 {
+    padding: 10px;
+    margin: 12px;
+    border-right: 7px solid #F85C37;
+    border-bottom: 7px solid #F85C37;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    -webkit-animation: scrl 2s infinite;
+    animation: scrl 2s infinite;
+    opacity: 0;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+  }
+
+  .arrowDown__arrow2 {
+    margin: 12px;
+    border-right: 7px solid #F85C37;
+    border-bottom: 7px solid #F85C37;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    padding: 10px;
+    -webkit-animation: scrl 2s infinite;
+    animation: scrl 2s infinite;
+    opacity: 0;
+    -webkit-animation-delay: .30s;
+    animation-delay: .30s;
+  }
+
+  .arrowDown__arrow3 {
+    margin: 12px;
+    border-right: 7px solid #F85C37;
+    border-bottom: 7px solid #F85C37;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    padding: 10px;
+    -webkit-animation: scrl 2s infinite;
+    animation: scrl 2s infinite;
+    opacity: 0;
+  }
+.navAlignRight {
+  margin-left: auto;
+}
+.bottomGap {
+  padding-bottom: 60px;
+}
+@keyframes scrl {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}

@@ -1,0 +1,123 @@
+{"items": {
+    "item1": {
+        "link": "http://whitesquare.cf",
+        "image": "assets/portfolio/mini-stubs/whiteSquare-min.png",
+        "titleFirst": "white",
+        "titleSecond": "Square",
+        "techList": "HTML 5 / CSS / PHP / MySQL",
+        "descrHead": "White Square",
+        "descrText": "An example of the layout of the blog, based on WordPress.",
+        "status": "available",
+        "date": "1555117810370",
+        "ID": "10"
+    },
+    "item2": {
+        "link": "http://howaboutgoodinc.cf/",
+        "image": "assets/portfolio/mini-stubs/goodInc-min.png",
+        "titleFirst": "Good",
+        "titleSecond": "Inc",
+        "techList": "HTML 5 / SASS",
+        "descrHead": "Good Inc",
+        "descrText": "An example of the layout of the main page of the news portal. Pure layout + adaptive layout.",
+        "status": "available",
+        "date": "1555117810371",
+        "ID": "9"
+    },
+    "item3": {
+        "link": "http://vek-mebel.com.ua/",
+        "image": "assets/portfolio/mini-stubs/vekMebel-min.png",
+        "titleFirst": "vek",
+        "titleSecond": "mebel",
+        "techList": "HTML 5 / CSS / PHP / MySQL / JQuery / cms Joomla / Bootstrap 3",
+        "descrHead": "Vek Mebel",
+        "descrText": "Product catalog furniture company based on Joomla (responsive design, product gallery, map, chat for contact with the seller). Full development cycle from scratch.",
+        "status": "available",
+        "date": "1555117810372",
+        "ID": "8"
+    },
+    "item4": {
+        "link": "/qoteMashine/",
+        "image": "assets/portfolio/mini-stubs/qote-mashine_ml-min.png",
+        "titleFirst": "qote",
+        "titleSecond": "mashine",
+        "techList": "HTML 5 / CSS / AJAX / JQuery",
+        "descrHead": "Qote Mashine",
+        "descrText": "This work is the result of studying the material on AJAX. The application sends a request to the API on a third-party resource (the resource is temporarily not working), reads the response and shows it to the user. You can share it on Twitter.",
+        "status": "available",
+        "date": "1555117810373",
+        "ID": "7"
+    },   
+    "item5": {
+        "link": "/bombRush/",
+        "image": "assets/portfolio/mini-stubs/bomb-rush_tk-min.png",
+        "titleFirst": "bomb",
+        "titleSecond": "rush",
+        "techList": "HTML 5 / CSS / JQuery",
+        "descrHead": "Bomb Rush",
+        "descrText": "Bombs appear in the top of screen and fall down. As soon as the bomb touches the bottom of the screen, 1 unit of health will be taken away. Bombs can be defused by clicking on them (mouse / finger). The essence of the game is to defuse the biggest number of bombs.",
+        "status": "available",
+        "date": "1555117810374",
+        "ID":6
+    },  
+    "item6": {
+        "link": "http://skydiving.com.ua",
+        "image": "assets/portfolio/mini-stubs/skydiving_com_ua-min.png",
+        "titleFirst": "sky",
+        "titleSecond": "diving",
+        "techList": "HTML 5/ SASS / Flexbox Smart Grid / JQuery / gulp",
+        "descrHead": "Sky Diving Сlub",
+        "descrText": "The main page is landing with descriptions of services. Also in other pages there is a blog with filtering by categories, calendar, and a page for buying certificates. In a calendar user can see the date of the jumps. Also implemented the interactive map with the choice of the aerodrome.",
+        "status": "available",
+        "date": "1555117810375",
+        "ID": "5"
+    },  
+    "item7": {
+        "link": "/cryptofx/",
+        "image": "assets/portfolio/mini-stubs/cryptofx-min.jpg",
+        "titleFirst": "crypto",
+        "titleSecond": "-FX",
+        "techList": "HTML 5 / SASS / Bootstrap4 grid / popup / BX slider / JQuery / gulp",
+        "descrHead": "Trading Portal",
+        "descrText": "Adaptive, cross-browser layout. Home with service descriptions, news blog, language change exit/entry forms, 'accordions' with frequently asked questions and contacts.",
+        "status": "available",
+        "date": "1555117810376",
+        "ID": "4"
+    },  
+    "item8": {
+        "link": "https://www.vesnamedia.com/",
+        "image": "assets/portfolio/mini-stubs/vesna-min.jpg",
+        "titleFirst": "vesna",
+        "titleSecond": "media",
+        "techList": "HTML 5 / css3 / Bootstrap4 grid / fotorama slider",
+        "descrHead": "Women's magazine",
+        "descrText": "On this site it was necessary to add a section of galleries and add a slider accordingly. Also, the correction bugs in forms and buttons.",
+        "status": "available",
+        "date": "1555117810378",
+        "ID": "3"
+    },  
+    "item9": {
+        "link": "/harveast/",
+        "image": "assets/portfolio/mini-stubs/harveast-min.png'",
+        "titleFirst": "harv",
+        "titleSecond": "east",
+        "techList": "HTML 5 / css3 / smart grid / webpack / JQuery",
+        "descrHead": "Corporate Website",
+        "descrText": "The site has a blog, application form for departments, 'accordion' with frequently asked questions, search for contacts of employees, archive of documents for download.",
+        "status": "available",
+        "date": "1555117810379",
+        "ID": "2"
+    }, 
+    "item10": {
+        "link": "https://safesurrogacy.com",
+        "image": "assets/portfolio/mini-stubs/SafeSurrogacy-min.jpg",
+        "titleFirst": "safe",
+        "titleSecond": "surrogacy",
+        "techList": "HTML 5 / css3 / bootstrap4 / gulp / JQuery",
+        "descrHead": "Safe Surrogacy Service",
+        "descrText": "Website layout for a company offering surrogate motherhood services. The site contains a selection form of donor programs, a page with a choice of 'photo sketch' and physical data of the donor, a blog, an accordion with answers to questions. And much more...",
+        "status": "available",
+        "date": "1555117810380",
+        "ID": "1"
+    }
+}
+}

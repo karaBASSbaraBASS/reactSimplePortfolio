@@ -1,0 +1,213 @@
+/**
+ * 7.0 Conference Schedule (Section)
+ * -----------------------------------------------------------------------------
+ */
+
+ .ntSchedule {
+    padding-bottom: 120px;
+}
+
+.ntSchedule .ntSubTitle {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/* tab */
+ul.ntScheduleTab {
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+}
+
+ul.ntScheduleTab li a.active {
+    color: #ffffff;
+    border-color: #00e7bc;
+    background-color: #00e7bc;
+}
+
+ul.ntScheduleTab li a:hover {
+    color: #ffffff;
+    background: #00e7bc;
+    border-color: #00e7bc;
+}
+
+ul.ntScheduleTab li {
+    margin-right: 5px;
+}
+
+ul.ntScheduleTab li a {
+    padding: 5px 15px;
+    display: block;
+    border: 2px solid #00e7bc;
+    color: #00e7bc;
+    font-size: 14px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.ntBtnDownloadSchedule {
+    right: 0;
+    color: #00e7bc;
+    bottom: 0;
+    padding: 5px 15px;
+    font-size: 14px;
+    position: absolute;
+    border-radius: 50px;
+    border: 2px solid #00e7bc;
+    margin-bottom: 10px;
+}
+
+.ntBtnDownloadSchedule:hover {
+    color: #00e7bc;
+    border-color: #00e7bc;
+}
+
+/* Tab content */
+.ntTabContent {
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    background: #ffffff;
+    background: $color-white;
+}
+
+.ntTabContent .ntEvent {
+    overflow: hidden;
+}
+
+.ntTabContent .ntEvent .ntEventTime {
+    float: left;
+    width: 25.57319%;
+    text-align: right;
+    padding-right: 33px;
+    position: relative;
+    line-height: 1.82em;
+    font-size: 22px;
+    font-weight: bold;
+    color: #7e1fdd;
+}
+
+.ntTabContent .ntEvent .ntEventTime span {
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-color: #00e7bc;
+    position: absolute;
+    top: 17px;
+    right: -6px;
+    color: white;
+    border-radius: 50%;
+}
+
+.ntTabContent .ntEvent .tnEventInfo {
+    float: left;
+    width: 74.42681%;
+    padding-left: 57px;
+    border-left: 1px solid #00e7bc;
+}
+.centered .tnEventInfo{
+    text-align: left;
+}
+
+.ntTabContent .ntEvent .ntEventTime,
+.ntTabContent .ntEvent .tnEventInfo h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #7e1fdd;
+    line-height: 34px;
+}
+
+.ntTabContent .ntEvent .tnEventInfo h3 {
+    font-weight: bold;
+    color: #364d61;
+    margin-bottom: 0;
+}
+
+.ntTabContent .ntEvent .tnEventInfo .ntSocialIcons {
+    display: block;
+    width: 130px;
+    margin: 0 auto;
+}
+
+.tnEventInfo .ntSocialIcons a {
+    border-color: #00e7bc;
+    color: #00e7bc;
+}
+
+.tnEventInfo .ntSocialIcons a a:active,
+.tnEventInfo .ntSocialIcons a:focus,
+.tnEventInfo .ntSocialIcons a:hover {
+    border-color: #00e7bc;
+    background-color: #00e7bc;
+    color: #fff;
+}
+
+.ntTabContent .ntEvent hr {
+    border-color: #eee;
+}
+
+/*extend */
+.ntTabContent .ntEvent.extend span {
+    width: 31px;
+    height: 31px;
+    top: 7px;
+    right: -16px;
+    line-height: 32px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.ntTabContent .ntEvent.extend .tnSpeakerName {
+    overflow: hidden;
+    margin-bottom: 35px;
+    line-height: 22px;
+}
+
+.ntTabContent .ntEvent.extend .tnSpeakerName .ntCaptionText {
+    overflow: hidden;
+    float: left;
+}
+
+.ntTabContent .ntEvent.extend .tnSpeakerName p {
+}
+
+.ntTabContent .ntEvent.extend .tnSpeakerName strong {
+    color: #00e7bc;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ntTabContent .ntEvent.extend .ntCaption {
+    overflow: hidden;
+    display: block;
+    background: #ffffff;
+    padding: 25px 20px;
+    border: 1px solid #eee;
+}
+
+.ntTabContent .ntEvent.extend .ntCaption .ntImage {
+    display: block;
+    overflow: hidden;
+    width: 170px;
+    float: left;
+    margin-right: 25px;
+}
+
+.ntTabContent .ntEvent.extend .ntCaption .ntImage img {
+    border: 1px solid #eeeeee;
+    border-radius: 100px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.ntTabContent .ntEvent.extend .ntCaptionText {
+    width: 100%;
+}
+
+.collapseBtn svg {
+    padding: 4px;
+    margin-top: 2px;
+    transition: transform 0.3s linear;
+}
+.collapseBtn.convert svg {
+    transform: translateX(180deg);
+}

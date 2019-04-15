@@ -1,0 +1,23 @@
+.Pagination-button{
+    border: 0;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    color: #ffffff;
+    font-weight: 900;
+    background-color: #00e7bc;
+    outline: none;
+    transition: background-color 0.1s linear;
+}
+.Pagination-button:hover {
+    background-color: #00bf9c;
+}
+.Pagination-button.disabled {
+    background-color: #00e7bc8c;
+}
+.Pagination-button:hover.disabled {
+    background-color: #00e7bc8c;
+}
+.Pagonation-info {
+    color: #3b84e5;
+}

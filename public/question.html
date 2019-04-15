@@ -1,0 +1,128 @@
+I have some data in a firebase cloud firestore. 
+This data i want to place in my react SPA as a paginated list. 
+Exemple of data:
+
+items {
+    item1{
+        descrHead: "white square",
+        descrText: "lorem",
+        imageUrl: "assets/portfolio/mini-stubs/whiteSquare-min.png",
+        status: "available"
+    },
+    item2{
+        descrHead: "blue square",
+        descrText: "lorem",
+        imageUrl: "assets/portfolio/mini-stubs/blueSquare-min.png",
+        status: "available"
+    },
+    ...
+    item N
+}
+
+When my component did mount i want to recive data from server and push it to the component state. 
+Expected state:
+
+state
+    loading: true,
+    error: false,
+    items: array[10]
+    |--item1: array[3]
+        |--imageUrl: "assets/portfolio/mini-stubs/whiteSquare-min.png",
+        |--descrHead: "white square",
+        |--descrText: descrText: "lorem"
+    |--item2: array[3]
+        |--imageUrl: "assets/portfolio/mini-stubs/whiteSquare-min.png",
+        |--descrHead: "blue square",
+        |--descrText: descrText: "lorem"
+    ...
+    |--itemN: array[3]
+
+In firebase tutorial i found some tip...
+```
+getDataFromDB() {
+    db.collection("items").get().then((querySnapshot) => {
+
+        console.table(querySnapshot.docs[0].data());
+        // connection works, we see the table with the first element data
+
+        // let's get through the data using the sorting method
+        querySnapshot.docs.forEach((item) => { 
+            console.log(`${item.id} => ${item.data()}`)
+        
+            // console shows: 
+            //item1 => [object Object]
+            //item2 => [object Object]
+        });
+    }
+}
+```
+I want to parse the object into the data I need?
+I'm newbie in JS and I don’t have clear understanding how to work with objects.
+I trying to do it like in my last project, using FOR IN loop:
+```
+getDataFromDB() {
+    db.collection("items").get().then((querySnapshot) => {
+        console.table(querySnapshot.docs[0].data());
+
+        let allRecivedData = querySnapshot.docs; 
+
+        allRecivedData.forEach((key)=>{
+            // this test shows me proper object
+            console.log(key.data())
+
+            let items = key.data();
+            for (let item in items) {
+
+                // this test shows me proper array, 
+                // 10 items each with 8 correct pairs key:value
+                console.log(`${item}: ${items[item]}`)
+
+                newState.push({
+                    item: items[item]
+                });
+            }
+        })
+
+        this.setState({
+            items: newState
+        });
+    }
+}
+```
+Now in my state this:
+
+state
+    loading: true,
+    error: false,
+    items: array[80]
+    |--0: {...}
+        |--item: "assets/portfolio/mini-stubs/whiteSquare-min.png"
+    |--1: {...}
+        |--item: "white square"
+    |--2: {...}
+        |--item: descrText: "lorem"
+    |--3: {...}
+        |--item: "assets/portfolio/mini-stubs/whiteSquare-min.png"
+    |--4: {...}
+        |--item: "blue square"
+    |--5: {...}
+        |--item: descrText: "lorem"
+    ...
+
+Why i get all items in a one row?
+Why all this items is starting from verb "item"?
+Why "item" didnt work as variable inside push metod?
+How to split them in a separate items?
+
+
+///////////////////////
+I'm making portfolio website based on React and Firebase Cloud Firestore.
+I would like to display a list of 3 elements per page and scroll it back and forth through the pages.
+I already have a list of records and pagination buttons but .startAt() didnt gave me proper result.
+ dont understand.
+
+I'm making portfolio website based on React and Firebase Cloud Firestore.
+And would like to display a list of 3 elements per page and scroll it back and forth through the pages.
+I already have pagination buttons and a list of records. Problem is in startAt() metod. didnt  me proper result.
+
+
