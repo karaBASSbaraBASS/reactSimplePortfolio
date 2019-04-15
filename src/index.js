@@ -10,18 +10,21 @@ import './index.css';
 
 class App extends React.Component {
     render(){
+       
         return (
-            <BrowserRouter>
-                <div>
-                    <Header/>
-                    <Switch>
-                        <Route path="/" component={MainPage} exact/>
-                        <Route path="/currency/:id" component={Detail} exact/>
-                        <Route component={NotFound}/>
-                    </Switch>
-                    <Footer/>
-                </div>
-            </BrowserRouter>
+           
+                <BrowserRouter >
+                    <div>
+                        <Header/>
+                        <Switch>
+                            <Route path="/reactSimplePortfolio/" component={MainPage} exact/>
+                            <Route path="/reactSimplePortfolio/:id" component={Detail} exact/>
+                            <Route component={NotFound}/>
+                        </Switch>
+                        <Footer/>
+                    </div>
+                </BrowserRouter>
+            
         )
     }
 }
