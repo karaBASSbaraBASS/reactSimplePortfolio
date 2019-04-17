@@ -1,4 +1,16 @@
 {"items": {
+    "item11": {
+        "link": "https://karabassbarabass.github.io/reactCurrencyStatistics/",
+        "image": "assets/portfolio/mini-stubs/currencyStatisrtics-min.png",
+        "titleFirst": "Crypto",
+        "titleSecond": "Currency",
+        "techList": "React / CSS / ES6",
+        "descrHead": "Currency Statistics",
+        "descrText": "React app which uses Real API to get up to date financial data about crypto currencies. Maded for mastering the React fundamentals such as JSX, \"props\", \"state\", eventing, \"routing\", fetching data, working with Forms.",
+        "status": "available",
+        "date": "1555117810364",
+        "ID": "11"
+    },
     "item1": {
         "link": "http://whitesquare.cf",
         "image": "assets/portfolio/mini-stubs/whiteSquare-min.png",
@@ -80,7 +92,7 @@
         "descrHead": "Trading Portal",
         "descrText": "Adaptive, cross-browser layout. Home with service descriptions, news blog, language change exit/entry forms, 'accordions' with frequently asked questions and contacts.",
         "status": "available",
-        "date": "1555117810376",
+        "date": "1555117810366",
         "ID": "4"
     },  
     "item8": {
@@ -92,7 +104,7 @@
         "descrHead": "Women's magazine",
         "descrText": "On this site it was necessary to add a section of galleries and add a slider accordingly. Also, the correction bugs in forms and buttons.",
         "status": "available",
-        "date": "1555117810378",
+        "date": "1555117810368",
         "ID": "3"
     },  
     "item9": {
@@ -104,7 +116,7 @@
         "descrHead": "Corporate Website",
         "descrText": "The site has a blog, application form for departments, 'accordion' with frequently asked questions, search for contacts of employees, archive of documents for download.",
         "status": "available",
-        "date": "1555117810379",
+        "date": "1555117810369",
         "ID": "2"
     }, 
     "item10": {
@@ -116,7 +128,7 @@
         "descrHead": "Safe Surrogacy Service",
         "descrText": "Website layout for a company offering surrogate motherhood services. The site contains a selection form of donor programs, a page with a choice of 'photo sketch' and physical data of the donor, a blog, an accordion with answers to questions. And much more...",
         "status": "available",
-        "date": "1555117810380",
+        "date": "1555117810365",
         "ID": "1"
     }
 }

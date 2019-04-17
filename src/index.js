@@ -17,8 +17,8 @@ class App extends React.Component {
                     <div>
                         <Header/>
                         <Switch>
-                            <Route path="/reactSimplePortfolio/" component={MainPage} exact/>
-                            <Route path="/reactSimplePortfolio/:id" component={Detail} exact/>
+                            <Route path="/" component={MainPage} exact/>
+                            <Route path="/:id" component={Detail} exact/>
                             <Route component={NotFound}/>
                         </Switch>
                         <Footer/>
