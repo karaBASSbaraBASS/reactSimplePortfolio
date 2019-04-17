@@ -19,7 +19,7 @@ class SectionThree extends React.Component {
             itemsPerPage: 3,
             selectNextPoint: '',
             firstItemCurrentPage: '',
-            arrOfFirstItemsPrevPage: ['1555117810370']
+            arrOfFirstItemsPrevPage: ['1555117810364']
         };
     };
     
@@ -91,26 +91,26 @@ class SectionThree extends React.Component {
                     <div  className='uc-shape-devider wave-shape-devider-bottom'></div>
                     <FlyingBlocks/>
 
-                    <div className="centered flex-col col-lg-10 mx-auto">
+                    <div className="centered flex-col col-lg-10 mx-auto maxWidth">
                         <h2 className="centered mx-auto sectionImageHeading">Portfolio</h2>
                         <div className="headingDivider">
                         </div>
-                    </div>
-                    <div className="row centered flex-row col-lg-10 maxWidth overflowBlock justify-content-center loadingWrap">
-                        <PortfolioRendered
-                            items = {this.state.items}
-                            loading = {this.state.loading}
-                            error = {this.state.error}
-                            handlePaginationClick={this.handlePaginationClick}
-                        >
-                        </PortfolioRendered>  
-                    </div>
-                    <div className="row centered flex-row col-lg-10 maxWidth overflowBlock justify-content-center">
-                        <Pagination
-                            currentPage={this.state.currentPage}
-                            totalPages={this.state.totalPages}
-                            handlePaginationClick={this.handlePaginationClick}>
-                        </Pagination>
+                        <div className="row centered flex-row col-lg-10 maxWidth overflowBlock justify-content-center loadingWrap">
+                            <PortfolioRendered
+                                items = {this.state.items}
+                                loading = {this.state.loading}
+                                error = {this.state.error}
+                                handlePaginationClick={this.handlePaginationClick}
+                            >
+                            </PortfolioRendered>  
+                        </div>
+                        <div className="row centered flex-row col-lg-10 maxWidth overflowBlock justify-content-center">
+                            <Pagination
+                                currentPage={this.state.currentPage}
+                                totalPages={this.state.totalPages}
+                                handlePaginationClick={this.handlePaginationClick}>
+                            </Pagination>
+                        </div>
                     </div>
                 </div>
             </section>

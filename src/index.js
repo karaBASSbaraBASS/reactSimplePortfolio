@@ -17,8 +17,8 @@ class App extends React.Component {
                     <div>
                         <Header/>
                         <Switch>
-                            <Route path="/" component={MainPage} exact/>
-                            <Route path="/:id" component={Detail} exact/>
+                            <Route path={process.env.PUBLIC_URL+'/'} component={MainPage} exact/>
+                            <Route path={process.env.PUBLIC_URL+'/:id'} component={Detail} exact/>
                             <Route component={NotFound}/>
                         </Switch>
                         <Footer/>
