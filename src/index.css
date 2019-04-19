@@ -73,6 +73,9 @@ h1, h2, h3 {
     color: #ffffff;
     font-weight: 700;
 }
+.white {
+    background-color: #ffffff;
+}
 .white h2,
 .white h3,
 .white span {
@@ -392,6 +395,7 @@ textarea {
 .overflowBlock {
     position: relative;
     z-index: 110;
+    margin: 0;
 }
 /* loading container */
 .loading-container {
@@ -425,5 +429,10 @@ textarea {
         width: calc(100% - 30px);
         margin: 15px;
     }
-
+    .flyingFace {
+        margin: auto auto 10px auto;
+    }
+    .row .row {
+        margin: 0;
+    }
 }

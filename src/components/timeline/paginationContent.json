@@ -1,0 +1,28 @@
+{
+    "item1": {
+        "date": "05.2016 - 10.2016",
+        "title": "Freecodecamp.com training course",
+        "description": "Learning the basics of layout, acquaintance with the profession «Front End Developer». Practice on video lessons. Building Websites to order."
+    },
+    "item2": {
+        "date": "04.2017 - 05.2017",
+        "title": "QAlight training course",
+        "description": "Learning the structure of MVC and creating a CMS based on PHP. Practice on video lessons. Learning the Laravel framework. Building Websites to order."
+    },
+    "item3": {
+        "date": "05.2017 - 02.2018",
+        "title": "LeoDigital",
+        "description": "Creation web-sites for clients of the company and their support, layout of blocks, setting up forms. etc..."
+    },
+    "item4": {
+        "date": "02.2018 - 10.2018",
+        "title": "CF Digital",
+        "description": "Creation web-sites for clients of the company and their support, layout of blocks, layout of advertising banners, performance optimization for old projects, scripting pages with es5/jquery etc..."
+    },
+    "item5": {
+        "date": "10.2018 - till now",
+        "title": "Freelance",
+        "description": "Learning ES6 and React in free courses. At the same time building websites, and blocks from .psd/.sketch to order."
+    }
+
+}

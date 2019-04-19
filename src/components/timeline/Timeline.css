@@ -211,3 +211,18 @@ ul.ntScheduleTab li a {
 .collapseBtn.convert svg {
     transform: translateX(180deg);
 }
+@media (max-width:768px){
+    .ntTabContent {
+        padding: 5px;
+    }
+    .ntTabContent .ntEvent .ntEventTime{
+        text-align: left;
+    }
+    .ntTabContent .ntEvent .ntEventTime {
+        width: 120px;
+    }
+    .ntTabContent .ntEvent .tnEventInfo {
+        width: calc(100% - 120px);
+        padding-left: 35px;
+    }
+}

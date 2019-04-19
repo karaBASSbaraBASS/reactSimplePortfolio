@@ -28,7 +28,7 @@ a {
   color: #f85c37 !important;
 }
 a:hover, a:focus {
-    color: #7b7b7b !important;
+    /*color: #7b7b7b !important;*/
     text-decoration: none;
     outline: #000;
 }

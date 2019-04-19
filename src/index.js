@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/common/Header';
 import MainPage from './components/mainPage/MainPage';
 import NotFound from './components/notfound/NotFound';
@@ -13,17 +13,17 @@ class App extends React.Component {
        
         return (
            
-                <BrowserRouter >
+                <HashRouter basename='/'>
                     <div>
                         <Header/>
                         <Switch>
-                            <Route path={process.env.PUBLIC_URL+'/'} component={MainPage} exact/>
-                            <Route path={process.env.PUBLIC_URL+'/:id'} component={Detail} exact/>
+                            <Route path='/' component={MainPage} exact/>
+                            <Route path='/:id' component={Detail} exact/>
                             <Route component={NotFound}/>
                         </Switch>
                         <Footer/>
                     </div>
-                </BrowserRouter>
+                </HashRouter>
             
         )
     }

@@ -1,8 +1,8 @@
 import React from 'react';
 import FlyingBlocks from './FlyingBlocks';
-import PortfolioRendered from './PortfolioRendered';
+import PortfolioRendered from '../portfolio/PortfolioRendered';
 import db from '../../base.js';
-import Pagination from './Pagination'
+import Pagination from '../portfolio/Pagination'
 
 
 class SectionThree extends React.Component {
