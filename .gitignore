@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # keys
-json-to-firestore.js
-service-key.js
+/json-to-firestore.js
+/service-key.js
