@@ -19,7 +19,7 @@ class SectionThree extends React.Component {
             itemsPerPage: 3,
             selectNextPoint: '',
             firstItemCurrentPage: '',
-            arrOfFirstItemsPrevPage: ['1555117810364']
+            arrOfFirstItemsPrevPage: ['1555117810363']
         };
     };
     

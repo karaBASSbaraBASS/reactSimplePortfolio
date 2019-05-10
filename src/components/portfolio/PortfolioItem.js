@@ -4,8 +4,8 @@ class PortfolioItem extends React.Component {
     
     render() {
         const { details } = this.props;
-        /* const isAvailable = details.status === 'available';
-        const buttonText = isAvailable ? 'Add To Order' : 'Sold Out!';*/
+        const isAvailable = details.status === 'available';
+        /*const buttonText = isAvailable ? 'Add To Order' : 'Sold Out!';*/
         return (
             <div className="column-4 portfolio__wrap">
                 <div className="portfolio__item">
