@@ -1,5 +1,16 @@
 {"items": {
-    
+    "item13": {
+        "link": "https://karabassbarabass.github.io/reactWeatherForecast/#/",
+        "image": "assets/portfolio/mini-stubs/weather-min.png",
+        "titleFirst": "React",
+        "titleSecond": "Weather",
+        "techList": "React / CSS / ES6 / openweathermap API / ipgeolocation API",
+        "descrHead": "Weather Forecast",
+        "descrText": "When you visit the page 'ipgeolocation API' gets the name of your city and sends request to the openweathermap API. In response, we get the weather forecast for 5 days, 3 measurements per day. It is also possible to specify a specific city where the weather interests you.",
+        "status": "available",
+        "date": "1555117810362",
+        "ID": "13"
+    },
     "item12": {
         "link": "https://gallant-bohr-a1d9a6.netlify.com/",
         "image": "assets/portfolio/mini-stubs/catchOfTheDay-min.png",

@@ -14,12 +14,12 @@ class SectionThree extends React.Component {
             loading: false,
             error: false,
             items: {},
-            totalPages: 4,
+            totalPages: 5,
             currentPage: 1,
             itemsPerPage: 3,
             selectNextPoint: '',
             firstItemCurrentPage: '',
-            arrOfFirstItemsPrevPage: ['1555117810363']
+            arrOfFirstItemsPrevPage: ['1555117810362']
         };
     };
     
